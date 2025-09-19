@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja Strona</title>
+  <!-- 📌 Font Awesome do ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .contact {
+      margin-top: 30px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .contact a:hover {
+      background: #45a049;
+    }
+    .social a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .social a i {
+      margin-right: 8px;
+    }
+    .social .instagram {
+      background: #E4405F;
+    }
+    .social .instagram:hover {
+      background: #d73755;
+    }
+    .social .facebook {
+      background: #1877F2;
+    }
+    .social .facebook:hover {
+      background: #145dbf;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Witaj na mojej stronie!</h1>
+  </header>
+
+  <nav>
+    <a href="#">Start</a>
+    <a href="#">O mnie</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <main>
+    <h2>O mnie</h2>
+    <p>To jest przykładowy tekst o mnie. Tu możesz opisać siebie albo swoją firmę.</p>
+
+    <!-- 📞 Sekcja kontaktowa -->
+    <section id="kontakt" class="contact">
+      <h2>Kontakt</h2>
+      <p>Jeśli chcesz się ze mną skontaktować, kliknij poniżej:</p>
+      <a href="tel:+48123456789"><i class="fas fa-phone"></i>Zadzwoń: +48 123 456 789</a><br>
+      <div class="social">
+        <a href="https://instagram.com/twojanazwa" target="_blank" class="instagram">
+          <i class="fab fa-instagram"></i>Instagram: @twojanazwa
+        </a><br>
+        <a href="https://facebook.com/twojanazwa" target="_blank" class="facebook">
+          <i class="fab fa-facebook"></i>Facebook: TwojaNazwa
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🎵 Muzyka w tle -->
+  <audio autoplay loop>
+    <source src="muzyka.mp3" type="audio/mpeg">
+    Twoja przeglądarka nie obsługuje odtwarzacza audio.
+  </audio>
+
+  <footer>
+    <p>&copy; 2025 Moja Strona</p>
+  </footer>
+</body>
+</html>
